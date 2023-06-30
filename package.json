@@ -1,8 +1,7 @@
 {
   "name": "clean-node-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "NodeJs Rest API using TDD, Clean Architecture and Typescript",
   "scripts": {
     "start": "sucrase-node src/main/server.ts",
     "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
@@ -22,6 +21,7 @@
     "@types/jest": "^24.0.25",
     "@types/mongodb": "^3.3.14",
     "@types/node": "^13.1.6",
+    "@types/supertest": "^2.0.12",
     "@types/validator": "^12.0.1",
     "@typescript-eslint/eslint-plugin": "^2.16.0",
     "eslint": "^6.8.0",
@@ -35,6 +35,7 @@
     "jest": "^24.9.0",
     "lint-staged": "^9.5.0",
     "sucrase": "^3.12.1",
+    "supertest": "^6.3.3",
     "ts-jest": "^24.3.0",
     "typescript": "^3.7.4"
   },
